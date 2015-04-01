@@ -38,7 +38,6 @@ ADD transmission/runUpdates.sh /etc/service/portupdater/run
 RUN mkdir -p /etc/service/openvpn/
 ADD runOpenVpn.sh /etc/service/openvpn/run
 
-VOLUME /config
 
 # Add configuration and scripts
 ADD runOpenVpn.sh /etc/openvpn/start.sh
