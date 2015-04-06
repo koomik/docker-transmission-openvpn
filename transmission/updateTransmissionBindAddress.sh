@@ -18,8 +18,8 @@ fi
 
 if [ "$CURRENT_VPNADDR" != "$VPNADDR" ]; then
   echo "`date` Restarting Tranmission... old addr $CURRENT_VPNADDR new addr $VPNADDR" >> /logs/transmission.log
-  /etc/init.d/transmission-daemon stop
-  sed -i "s/.*bind-address-ipv4.*/    \"bind-address-ipv4\"\: \"$VPNADDR\",/g" /etc/transmission-daemon/settings.json
-  /etc/init.d/transmission-daemon start
+  #/etc/init.d/transmission-daemon stop
+  #sed -i "s/.*bind-address-ipv4.*/    \"bind-address-ipv4\"\: \"$VPNADDR\",/g" /etc/transmission-daemon/settings.json
+  #/etc/init.d/transmission-daemon start
 fi
 
