@@ -47,7 +47,7 @@
   "rpc-password": "{425745bf3914984c2abcc013276f40e8fa5d84ecC5.df8oF",
   "rpc-port": 9091,
   "rpc-url": "/transmission/",
-  "rpc-username": "username",
+  "rpc-username": "qsecofr",
   "rpc-whitelist": "127.0.0.1,*.*.*.*",
   "rpc-whitelist-enabled": true,
   "speed-limit-down": 1500,
