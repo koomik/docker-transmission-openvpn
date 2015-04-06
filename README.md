@@ -1,6 +1,6 @@
 # docker transmission
 
-All credits for this goes to jongillies (see the "Forked from" section)
+All credits for this goes to Jon Gillies (see the "Forked from" section)
 This git only goes for testing his work with some modifications i need.
 
 
